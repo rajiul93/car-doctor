@@ -1,7 +1,10 @@
  
 import AboutUs from "./AboutUs";
+import Location from "./Location";
+import PopularProduct from "./PopularProduct";
 import Service from "./Service";
 import Slider from "./Slider";
+import Testimonial from "./Testimonial";
 
  
 
@@ -11,6 +14,9 @@ const Home = () => {
             <Slider />
             <AboutUs />
             <Service />
+            <Location />
+            <PopularProduct />
+            <Testimonial />
         </div>
     );
 };
